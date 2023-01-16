@@ -1,0 +1,55 @@
+:root{
+    /*Escribe aquí tu código*/
+    --title-color: grey;
+    --content-color: green;
+    --document-margin: 0;
+  }
+  
+  
+  body {
+    margin:var(--document-margin);
+  }
+  
+  header{
+    background-color:#eaeaea;
+    padding:20px
+  }
+  
+  main{
+    padding:20px
+  }
+  
+  p{
+    width:50%;
+    font-size: 16px
+  }
+  
+  ul{
+    list-style-type:none;
+    padding:0
+  }
+  
+  .title{
+    color:grey;
+    margin:var(--document-margin);
+  }
+  
+  .subtitle{
+    color: var(--title-color);
+    margin:var(--document-margin);
+  }
+  
+  .menu li {
+    display:inline
+  }
+  
+  .menu a {
+    color:var(--content-color);
+    text-decoration:none
+  }
+  
+  p a {
+    color:var(--content-color)
+  }
+  
+  

@@ -1,0 +1,42 @@
+body {
+    margin: 10px 30px;
+  }
+  .col {
+    display: inline-block;
+    width: 140px;
+    margin-right: 10px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .box {
+    border: 1px solid deeppink;
+    width: 130px;
+    height: 130px;
+  }
+  
+  .box--1 {
+    /*
+    color de fondo: cyan
+    */
+    background-color: cyan;
+  }
+  .box--2 {
+    /*
+    imagen de fondo: https://www.fillmurray.com/130/130
+    */
+    background-image: url("https://img.freepik.com/foto-gratis/hermoso-arreglo-papel-tapiz-flores_23-2149057015.jpg?w=1380&t=st=1673559990~exp=1673560590~hmac=82ca05b17b7abad5b931a81ce377a14f320ff847139be987c93487a769a60ec6");
+   
+  }
+  .box--3 {
+    /*
+    color de fondo: cyan
+    imagen de fondo: https://www.fillmurray.com/110/110
+    La imagen tiene que aparecer centrada y sin que se repita
+    */
+    background-image: url("https://img.freepik.com/foto-gratis/hermoso-arreglo-papel-tapiz-flores_23-2149057015.jpg?w=1380&t=st=1673559990~exp=1673560590~hmac=82ca05b17b7abad5b931a81ce377a14f320ff847139be987c93487a769a60ec6");
+    background-color: cyan;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90% 90%;
+  }
